@@ -35,4 +35,39 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
+    cursor:crosshair;
 }
+
+button {
+  background-color:#669999;
+   border: none;
+   color: white;
+   padding: 10px 10px;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   opacity: 0.6;
+   transition: 0.3s;
+   display: inline-block;
+   text-decoration: none;
+   cursor: pointer;
+
+   float: middle;
+     border: 1px solid white
+}
+
+.arkiv {
+  background-color: #29a3a3
+}
+
+.projekt {
+  background-color: #7575a3
+}
+
+
+.mer:hover {opacity: 1}
+
+
+.arkiv:hover {opacity: 1}
+
+.projekt:hover {opacity: 1}
